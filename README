@@ -1,0 +1,31 @@
+Jonathan Reynolds
+
+RTSP PRO3 CS447
+
+********** REQUIREMENTS **********
+
+1) TLS Programming 
+	- establish secure connection between controller and server using TLS
+
+2) User Authentication 
+	- authenticate user to probe before streaming 
+	- implement WWW-Authenticate and Authorize headers (RFC #7617 sec. 2)
+
+3) Server Incident Management 
+	- log of active connections 
+	- log format as follows: timestamp from-ip to-ip protocol-command message-code brief-description 
+
+
+4) Multithreading
+	- support more than one concurrent streaming client 
+
+********** LOGISTICS **********
+
+1) All PR02 requirements apply to PR03
+
+2) Provide proof of secure communication
+        - Wireshark captures with TLS enabled/disabled
+
+3) SSL Usage Diagram Provided 
+	- PR03 description 
+
