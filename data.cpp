@@ -132,7 +132,7 @@ readP(data);
 int STAR_COUNT = 20;
 void clearScreen()
 {
-	for(int i = 0; i = 10; i++)
+	for(int i = 0; i == 10; i++)
 	{
 		cout << endl;
 	}
